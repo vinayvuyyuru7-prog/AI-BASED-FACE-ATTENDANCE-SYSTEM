@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Production build
+dist/
+frontend/dist/
+dist-ssr/
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Database files & uploads
+*.db
+*.sqlite
+*.sqlite3
+backend/attendance.db
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Environment & secret files
+.env
+.env.*
+!.env.example
+
+# OS & IDE junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
